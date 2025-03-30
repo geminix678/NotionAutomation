@@ -1,8 +1,8 @@
-name: Run Notion Script at 4 AM Vietnam Time
+name: Run Notion Script at 3 PM Vietnam Time
 
 on:
   schedule:
-    - cron: "0 21 * * *"  # Chạy lúc 4h sáng giờ Việt Nam (21h UTC)
+    - cron: "0 8 * * *"  # Chạy lúc 15h Việt Nam (8h UTC)
   workflow_dispatch:       # Cho phép chạy thủ công từ GitHub Actions
 
 jobs:
