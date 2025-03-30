@@ -2,7 +2,7 @@ name: Run Notion Script Daily
 
 on:
   schedule:
-    - cron: "0 2 * * *"  # Chạy mỗi ngày lúc 2:00 sáng UTC
+    - cron: "*/2 * * * *"  # Chạy mỗi ngày lúc 2:00 sáng UTC
   workflow_dispatch:     # Cho phép chạy thủ công từ GitHub Actions
 
 jobs:
