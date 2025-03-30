@@ -1,9 +1,8 @@
-name: Run Notion Script at 3 PM Vietnam Time
+name: Auto Uncheck 
 
 on:
   schedule:
-    - cron: "*/2 * * * *" 
-    #- cron: "9 9 * * *" # Chạy lúc 15h Việt Nam (8h UTC)
+     - cron: "20 9 * * *" # Chạy lúc 15h Việt Nam (8h UTC)
   workflow_dispatch:       # Cho phép chạy thủ công từ GitHub Actions
 
 jobs:
