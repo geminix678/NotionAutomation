@@ -1,8 +1,8 @@
-name: Auto Uncheck 
+name: Auto Uncheck
 
 on:
   schedule:
-     - cron: "20 9 * * *" # Chạy lúc 15h Việt Nam (8h UTC)
+     - cron: "26 9 * * *" # Chạy lúc 16:26 Việt Nam (9:26 UTC)
   workflow_dispatch:       # Cho phép chạy thủ công từ GitHub Actions
 
 jobs:
