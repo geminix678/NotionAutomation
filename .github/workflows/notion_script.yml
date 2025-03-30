@@ -1,9 +1,9 @@
-name: Run Notion Script Daily
+name: Run Notion Script Every 2 Minutes
 
 on:
   schedule:
-    - cron: "*/2 * * * *"  # Chạy mỗi ngày lúc 2:00 sáng UTC
-  workflow_dispatch:     # Cho phép chạy thủ công từ GitHub Actions
+    - cron: "*/2 * * * *"  # Chạy mỗi 2 phút
+  workflow_dispatch:       # Cho phép chạy thủ công từ GitHub Actions
 
 jobs:
   run-script:
